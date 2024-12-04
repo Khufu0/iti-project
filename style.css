@@ -105,7 +105,7 @@ header * {
     background: white;
 }
 
-#about .titel {
+#about .title {
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -116,7 +116,7 @@ header * {
     margin-bottom: 20px;
 }
 
-#about .titel p {
+#about .title p {
     font-size: 14px;
     color: #9a9a9a;
     font-weight: 600;
