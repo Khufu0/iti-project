@@ -1,0 +1,81 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background: url("img/back\ ground2.jpg");
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+a:link {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #CC6666;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CC6666;
+}
+
+a:hover {
+    color: #CC4949;
+}
+
+
+form {
+    color: black;
+    width: 40%;
+    margin: 50px auto;
+    background-color: white;
+    border: 5px solid #f0d7c1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.feedback-input {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+textarea {
+    height: 300px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+form button:hover {
+    background: #CC4949;
+}
