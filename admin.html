@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cake&Co. Admin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="admin-container">
+    <aside class="sidebar">
+      <h2>Cake&Co. Admin</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>Welcome to Cake&Co. Admin Panel</h1>
+      </header>
+      <section class="analytics">
+        <h2>Analytics</h2>
+        <div class="analytics-cards">
+          <div class="card">
+            <h3>Total Sales</h3>
+            <p>$3,450</p>
+          </div>
+          <div class="card">
+            <h3>New Customers</h3>
+            <p>120</p>
+          </div>
+          <div class="card">
+            <h3>Pending Orders</h3>
+            <p>15</p>
+          </div>
+        </div>
+      </section>
+      <section class="order-status">
+        <h2>Order Status</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Customer</th>
+              <th>Items</th>
+              <th>Total</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#1001</td>
+              <td>John Doe</td>
+              <td>Chocolate Cake</td>
+              <td>$45</td>
+              <td class="pending">Pending</td>
+            </tr>
+            <tr>
+              <td>#1002</td>
+              <td>Jane Smith</td>
+              <td>Red Velvet</td>
+              <td>$60</td>
+              <td class="pending">Pending</td>
+            </tr>
+            <tr>
+              <td>#1003</td>
+              <td>Mike Johnson</td>
+              <td>Vanilla Cupcakes</td>
+              <td>$30</td>
+              <td class="complete">Complete</td>
+            </tr>
+            <tr>
+              <td>#1004</td>
+              <td>Emily Davis</td>
+              <td>Cheesecake</td>
+              <td>$50</td>
+              <td class="complete">Complete</td>
+            </tr>
+            <tr>
+              <td>#1005</td>
+              <td>Chris Brown</td>
+              <td>Fruit Tart</td>
+              <td>$25</td>
+              <td class="cancelled">Cancelled</td>
+            </tr>
+            <tr>
+              <td>#1006</td>
+              <td>Sarah Wilson</td>
+              <td>Black Forest</td>
+              <td>$70</td>
+              <td class="cancelled">Cancelled</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #3e444e;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffc107;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+  color: #ffc107;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 2px solid #ddd;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.analytics h2, .order-status h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.analytics-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+table td {
+  font-size: 14px;
+  color: #495057;
+}
+
+.pending {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.complete {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.cancelled {
+  color: #dc3545;
+  font-weight: bold;
+}
+
