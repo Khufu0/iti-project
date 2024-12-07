@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+
 .btn {
     display: inline-block;
     padding: 15px 30px;
@@ -28,12 +33,13 @@ a {
 .btn-secondary {
     color: white;
     background: #383848;
+    margin-top: 2rem;
 }
 
 
 header {
     height: 100vh;
-    background: url('./img/back\ logo.jpg') center center/cover no-repeat;
+    background: url('./img/back logo.jpg') center center/cover no-repeat;
     position: relative;
 }
 
@@ -98,14 +104,16 @@ header * {
 
 
 #about {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: url(img/marym.jpg);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#about .title {
+#about .titel {
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -116,7 +124,7 @@ header * {
     margin-bottom: 20px;
 }
 
-#about .title p {
+#about .titel p {
     font-size: 14px;
     color: #9a9a9a;
     font-weight: 600;
@@ -138,4 +146,525 @@ header * {
     font-weight: 500;
     line-height: 1.6;
 
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/marym.jpg) center center/cover no-repeat;
+}
+
+#contact .titel {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#contact h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h2 {
+    font-size: 40px;
+    color: rgb(41, 36, 41);
+    margin-bottom: 20px;
+
+}
+
+#contact .titel p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+#contact .contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .contact-info p,
+#social-icons a {
+    margin: 0.5rem 0;
+
+}
+
+#contact .social,
+#contact .contact-info {
+    margin-bottom: 2rem;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+#contact.contact-info a,
+#social-icons a {
+    color: #090909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact.contact-info a:hover,
+#social-icons a:hover {
+    text-decoration: underline;
+
+}
+
+
+#shopping {
+    background: url(img/marym.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 146vh;
+    width: 99vw;
+
+}
+
+#shopping h1 {
+    text-align: center;
+    block-size: 45px;
+    margin-top: 0%;
+    padding: 8%;
+    opacity: 0.8;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+#shopping img {
+    width: 204px;
+    height: 185px;
+    position: relative;
+    left: 18px;
+    border-radius: 6%;
+    top: 6px;
+    left: 12px;
+}
+
+#shopping.allproduct1 {
+    display: flex;
+    margin-left: 5%;
+}
+
+#shopping .product1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 226px;
+    height: 370px;
+    border-radius: 9%;
+    background-color: rgb(241, 211, 216);
+    margin: 2%;
+    opacity: 0.8;
+    display: inline-block;
+
+}
+
+
+#shopping .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#shopping button {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 59px;
+    top: 10px;
+    border-radius: 35%;
+    background-color: white;
+}
+
+#shopping p {
+    justify-content: center;
+}
+
+#shopping input {
+    text-align: center;
+    position: relative;
+    left: 10%;
+    margin-bottom: 50px;
+}
+
+#shopping label {
+    text-align: center;
+    position: relative;
+    right: -20px;
+    margin-bottom: 50px;
+}
+
+#shopping .button0 {
+    background: linear-gradient(45deg, #ff6b6b, #f65e5e);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    position: relative;
+    left: 470px;
+}
+
+#sign {
+    background-color: aliceblue;
+    background-image: url(img/marym.jpg);
+    background-size: contain;
+    width: 99vw;
+    height: 98vh;
+
+}
+
+#sign h1 {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: double;
+    text-shadow: rgb(80, 182, 255);
+    height: 25vh;
+}
+
+
+
+#sign form {
+    text-align: center;
+    font-size: x-large;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #120404;
+    border-style: groove;
+    box-shadow: inset 20px -11px 20px 20px rgba(238, 99, 136, 0.2);
+    width: 75vh;
+    margin: 0 auto;
+
+}
+
+#account {
+    background-image: url(img/marym.jpg);
+    position: relative;
+    font-size: large;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300 700;
+
+}
+
+#account::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#account * {
+    z-index: 10;
+}
+
+#account h1 {
+    text-align: center;
+    padding: auto;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+#account img {
+    margin-left: 1110px;
+}
+
+#category {
+    background: url(img/marym.jpg);
+    margin-top: 15px;
+    background-size: contain;
+    background-repeat: repeat;
+    height: 146vh;
+    width: 99vw;
+
+}
+
+#category h1 {
+    text-align: center;
+    block-size: 45px;
+    margin-top: 0%;
+    padding: 8%;
+    opacity: 0.8;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+#category h2 {
+    text-align: center;
+    color: white;
+}
+
+#category img {
+    width: 150px;
+    height: 250px;
+    position: relative;
+    left: 18px;
+    border-radius: 6%;
+    top: 6px;
+    left: 12px;
+}
+
+#category.allcategory1 {
+    display: flex;
+    margin-left: 5%;
+}
+
+#category .category1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 172px;
+    height: 370px;
+    border-radius: 9%;
+    background-color: rgb(219, 125, 125);
+    margin: 2%;
+    opacity: 0.8;
+    display: inline-block;
+
+}
+
+#feedback {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background: url(./img/marym.jpg);
+    height: 100vh;
+    width: 99vw;
+    margin-top: 15px;
+}
+
+#feedback img {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+#feedback h1 {
+    text-align: center;
+    block-size: 45px;
+    margin-top: 0%;
+    padding: 4%;
+    opacity: 0.8;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+#feedback form {
+    color: black;
+    width: 40%;
+    margin: 50px auto;
+    background-color: white;
+    border: 5px solid #f0d7c1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#feedback input {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#feedback textarea {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    height: 300px;
+    line-height: 150%;
+    resize: vertical;
+    border: solid #CC6666;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#feedback form button {
+    width: 100%;
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+#wishlist {
+    font-family: 'Poppins', cursive;
+    margin: 0;
+    display: flex;
+    height: 125vh;
+    background: url(./img/marym.jpg);
+    color: #333;
+    margin-top: 15px;
+}
+
+#wishlist .sidebar {
+    background-color: #ffdde1;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 2.5rem;
+    color: #ff6b6b;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+.wishlist-title {
+    font-size: 2rem;
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+
+
+.wishlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.wishlist-item {
+    background: #ffffff;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wishlist-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #ff6b6b;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.wishlist-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.wishlist-item h2 {
+    font-size: 1.25rem;
+    color: #444;
+    margin: 10px 0;
+}
+
+.wishlist-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.add-item {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-item h2 {
+    text-align: center;
+    color: #ff6b6b;
+}
+
+.add-item-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add-item-form input,
+.add-item-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.add-item-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.add-item-form button:hover {
+    background-color: #ff3b3b;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f1f1f1;
+    color: #666;
 }
